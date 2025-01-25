@@ -20,15 +20,10 @@ nav {
     background-color: white;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 10px 20px;
+nav a {
     color: #000000;
+    margin: 20px 10px;
+    display: inline-block;
 }
 
 a:link {
@@ -51,7 +46,6 @@ section {
 }
 
 #heroSection {
-    text-align: center;
     padding: 50px;
     background-color: black;
     color: white;
@@ -68,8 +62,6 @@ section {
 }
 
 #projectsSection {
-    text-align: center;
-    margin: 0.2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
